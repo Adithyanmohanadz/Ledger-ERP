@@ -1,3 +1,32 @@
+@import url(https://fonts.googleapis.com/css?);
+@font-face {
+  font-family: "SnellRoundhandW01-Scrip";
+  src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/fea0fb7b-884b-4567-a6dc-addb8e67baaa.eot?#iefix");
+  src: url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/fea0fb7b-884b-4567-a6dc-addb8e67baaa.eot?#iefix") 
+  format("eot"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/efbfc170-aaf0-4472-91f4-dbb5bc2f4c59.woff") 
+  format("woff"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/d974669d-978c-4bcf-8843-b2b7c366d097.ttf") 
+  format("truetype"), url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/5b2427b5-3c1e-4b17-9f3c-720a332c9142.svg#5b2427b5-3c1e-4b17-9f3c-720a332c9142") 
+  format("svg");
+  font-display: block;
+}
+.dtext{
+  font-family: snellroundhandw01-scrip,cursive;
+  font-style: italic;
+  font-size:48px;
+  font-weight:bold;
+   
+  line-height:1.3em; 
+  text-align:center;
+  color: black;
+}
+
+@media (max-width:625px) {
+  .bimg{
+    width: 55% !important;
+    
+  } 
+}
+
 /*-- banner --*/
 .w3l-banner {
     /* background: url(../images/banner1.jpg) no-repeat center; */
@@ -101,4 +130,25 @@
     width: 100%;
   }
 
+  .w3l-footers-20 input[type="email"] {
+    background: var(--bg-grey);
+    border: none;
+    padding: 16px 20px;
+    font-size: 15px;
+    outline: none;
+    width: 80%;
+    color: var(--heading-color);
+    border-radius: 4px 0 0 4px;
+  }
+  .w3l-footers-20 button {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 16px 12px;
+    cursor: pointer;
+    width: 20%;
+    color: #fff;
+    background: var(--primary-color);
+    border-radius: 0 4px 4px 0;
+  }
   

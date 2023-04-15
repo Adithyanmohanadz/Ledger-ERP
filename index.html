@@ -13,6 +13,7 @@
     <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/style-starter.css">
     <link rel="stylesheet" href="assets/css/c.css">
+    <link rel="stylesheet" href="assets/css/animation.css">
 
     
   </head>
@@ -25,7 +26,7 @@
                   <span class="lnr lnr-bicycle"></span> Ledger ERP
               </a></h1> -->
           <!-- if logo is image enable this    -->
-  <a class="navbar-brand" href="#index.html">
+  <a class="navbar-brand" href="index.html">
       <img src="assets/images/11/2aaeb5_b6868a828fa948138106bad8ba7bf8bd~mv2.webp" alt="Your logo" title="Your logo" style="height:80px;" />
       <h1> <a class="navbar-brand text-dark" href="index.html">
          Ledger ERP
@@ -44,16 +45,16 @@
                       <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item @@about__active">
-                      <a class="nav-link" href="about.html">About</a>
+                      <a class="nav-link" href="#about">About</a>
                   </li>
                   <li class="nav-item @@classes__active">
-                      <a class="nav-link" href="classes.html">PRODUCT & SERVICES</a>
+                      <a class="nav-link" href="#product">PRODUCT & SERVICES</a>
                   </li>
                   <li class="nav-item @@classes__active">
-                    <a class="nav-link" href="classes.html">TESTAMENT</a>
+                    <a class="nav-link" href="#client">TESTAMENT</a>
                 </li>
                   <li class="nav-item @@contact__active">
-                      <a class="nav-link" href="contact.html">Contact</a>
+                      <a class="nav-link" href="#contact">Contact</a>
                   </li>
                   
       </nav>
@@ -62,21 +63,21 @@
 <!--/header-->
 <!-- banner section -->
 <section id="home" class="w3l-banner ">
-    <div class=" py-lg-5 py-md-4">
+    <div class=" mt-5 py-lg-5 py-md-4">
         <div class="py-lg-5 py-4">
-            <div class="banner-info-grid d-flex justify-content-center">
-                <img src="assets/images/11/2aaeb5_b6868a828fa948138106bad8ba7bf8bd~mv2.webp" alt="">
+            <div class="banner-info-grid d-flex justify-content-center" data-animation="fadeIn">
+                <img class="w-25 bimg mt-5" src="assets/images/11/2aaeb5_b6868a828fa948138106bad8ba7bf8bd~mv2.webp" alt="">
             </div>
-            <div class="banner-info-grid d-flex justify-content-center">
-                <h2 class="mt-3">a team with many hands & one mind</h2>
+            <div class="banner-info-grid d-flex justify-content-center" data-animation="slideInUp" data-animation-delay="600ms">
+                <h2 class="mt-3 dtext">a team with many hands & one mind</h2>
             </div>
             <div class="banner-info-grid d-flex justify-content-around mt-5 pt-5">
                 <img src="assets/images/11/New folder/AppStore-BTN_02.webp" alt="">
                 <img src="assets/images/11/New folder/PlayStore-BTN_02.webp" alt="">
                 <img src="assets/images/11/New folder/microsoft-store-windows-10-android-png-f.webp" alt="">
             </div>
-            <div class="banner-info-grid d-flex justify-content-center">
-                <h5 class="mt-5 pt-5  text-justify">
+            <div class="mt-5 banner-info-grid d-flex justify-content-center"  id="about">
+                <h5 class="mt-5 px-3  text-justify">
                     Being inspired by the opportunities and unsatisfied needs of the industry, Ledger ERP has developed servants that works as the Entrepreneur thinks .  
                     This has made hassle free software systems that focus on simplicity and perfection. Our diverged thoughts of creating self-adaptive and responsive 
                     features can replace conventional means of administration. Based on the needs of each segment, products are developed for Micro, Small & Medium Enterprises . 
@@ -88,7 +89,7 @@
 </section>
 <!-- //banner section -->
 
-<section class="w3l-blog-block pb-5">
+<section class="w3l-blog-block pb-5" id="product">
     <div class="container py-lg-5 py-md-4">
         <div class="heading text-center mx-auto">
             
@@ -99,7 +100,7 @@
                 <div class="card">
                     <div class="card-header p-0 position-relative">
                         <a href="">
-                            <img class="card-img-bottom d-block" src="assets/images/11/product/software_edited.webp" alt="Card image cap">
+                            <img class="card-img-bottom d-block" src="assets/images/11/product/software_edited.jpg" alt="Card image cap">
                         </a>
                         
                     </div>
@@ -113,7 +114,7 @@
                 <div class="card">
                     <div class="card-header p-0 position-relative">
                         <a href="">
-                            <img class="card-img-bottom d-block" src="assets/images/11/product/2_edited.webp" alt="Card image cap">
+                            <img class="card-img-bottom d-block" src="assets/images/11/product/2_edited.jpg" alt="Card image cap">
                         </a>
                         
                     </div>
@@ -127,7 +128,7 @@
                 <div class="card">
                     <div class="card-header p-0 position-relative">
                         <a href="">
-                            <img class="card-img-bottom d-block" src="assets/images/11/product/3.webp" alt="Card image cap">
+                            <img class="card-img-bottom d-block" src="assets/images/11/product/3.jpg" alt="Card image cap">
                         </a>
                         
                     </div>
@@ -146,7 +147,7 @@
 
 
 
-<section class="w3l-main-slider position-relative py-5" id="">
+<section class="w3l-main-slider position-relative py-5" id="client">
     <div class="heading text-center mx-auto">
             
         <h3 class="title-big title-big-center mb-md-5 mb-4">CLIENTS AND PROJECTS</h3>
@@ -157,16 +158,16 @@
                 <li>
                     <div class="container slider-info  ">
                         <div class=" myGallery">
-                            <img src="assets/images/11/client/106.webp" />
-                            <img src="assets/images/11/client/107.webp" />
-                            <img src="assets/images/11/client/108.webp" />
-                            <img src="assets/images/11/client/110.webp" />
-                            <img src="assets/images/11/client/114.webp" />
-                            <img src="assets/images/11/client/115.webp" />
-                            <img src="assets/images/11/client/123.webp" />
-                            <img src="assets/images/11/client/2018-07-17.webp" />
-                            <img src="assets/images/11/client/45099222_110306359968272_175000279862529.webp" />
-                            <img src="assets/images/11/client/brand1.webp" />
+                            <img src="assets/images/11/client/New folder/1.jpg" />
+                            <img src="assets/images/11/client/New folder/10.jpg" />
+                            <img src="assets/images/11/client/New folder/11.jpg" />
+                            <img src="assets/images/11/client/New folder/12.jpg" />
+                            <img src="assets/images/11/client/New folder/13.jpg" />
+                            <img src="assets/images/11/client/New folder/14.jpg" />
+                            <img src="assets/images/11/client/New folder/15.jpg" />
+                            <img src="assets/images/11/client/New folder/16.jpg" />
+                            <img src="assets/images/11/client/New folder/17.jpg" />
+                            <img src="assets/images/11/client/New folder/18.jpg" />
                         </div>
                     </div>
                 </li>
@@ -175,16 +176,16 @@
                 <li>
                     <div class="container slider-info  ">
                         <div class="myGallery">
-                            <img src="assets/images/11/client/brand2.webp" />
-                            <img src="assets/images/11/client/brand3.webp" />
-                            <img src="assets/images/11/client/download (1).webp" />
-                            <img src="assets/images/11/client/download.webp" />
-                            <img src="assets/images/11/client/HRF copy.webp" />
-                            <img src="assets/images/11/client/hyper.webp" />
-                            <img src="assets/images/11/client/images.webp" />
-                            <img src="assets/images/11/client/jindal-logo.webp" />
-                            <img src="assets/images/11/client/kai logo.webp" />
-                            <img src="assets/images/11/client/kka logo.webp" />
+                            <img src="assets/images/11/client/New folder/19.jpg" />
+                            <img src="assets/images/11/client/New folder/2.jpg" />
+                            <img src="assets/images/11/client/New folder/20.jpg" />
+                            <img src="assets/images/11/client/New folder/21.jpg" />
+                            <img src="assets/images/11/client/New folder/22.jpg" />
+                            <img src="assets/images/11/client/New folder/23.jpg" />
+                            <img src="assets/images/11/client/New folder/24.jpg" />
+                            <img src="assets/images/11/client/New folder/25.jpg" />
+                            <img src="assets/images/11/client/New folder/26.jpg" />
+                            <img src="assets/images/11/client/New folder/27.jpg" />
                         </div>
                     </div>
                 </li>
@@ -193,16 +194,16 @@
                 <li>
                     <div class="container slider-info  ">
                         <div class="myGallery">
-                            <img src="assets/images/11/client/KLM-Axiva-Finvest-Limited-NCD.webp" />
-                            <img src="assets/images/11/client/logo (1).webp" />
-                            <img src="assets/images/11/client/logo (2).webp" />
-                            <img src="assets/images/11/client/logo (3).webp" />
-                            <img src="assets/images/11/client/logo-nirmal.webp" />
-                            <img src="assets/images/11/client/logo-retina.webp" />
-                            <img src="assets/images/11/client/logo.webp" />
-                            <img src="assets/images/11/client/logo_edited.webp" />
-                            <img src="assets/images/11/client/LOOM CAT.webp" />
-                            <img src="assets/images/11/client/Manatec.webp" />
+                            <img src="assets/images/11/client/New folder/28.jpg" />
+                            <img src="assets/images/11/client/New folder/29.jpg" />
+                            <img src="assets/images/11/client/New folder/3.jpg" />
+                            <img src="assets/images/11/client/New folder/30.jpg" />
+                            <img src="assets/images/11/client/New folder/31.jpg" />
+                            <img src="assets/images/11/client/New folder/32.jpg" />
+                            <img src="assets/images/11/client/New folder/33.jpg" />
+                            <img src="assets/images/11/client/New folder/34.jpg" />
+                            <img src="assets/images/11/client/New folder/35.jpg" />
+                            <img src="assets/images/11/client/New folder/36.jpg" />
                         </div>
                     </div>
                 </li>
@@ -211,16 +212,16 @@
                 <li>
                     <div class="container slider-info  ">
                         <div class="myGallery">
-                            <img src="assets/images/11/client/mthlogo_29.webp" />
-                            <img src="assets/images/11/client/new logo a3 w.webp" />
-                            <img src="assets/images/11/client/new logow 1w.webp" />
-                            <img src="assets/images/11/client/p3.webp" />
-                            <img src="assets/images/11/client/p8.webp" />
-                            <img src="assets/images/11/client/RED.webp" />
-                            <img src="assets/images/11/client/SAVE_20190503_232957.webp" />
-                            <img src="assets/images/11/client/Slide1_JPG.webp" />
-                            <img src="assets/images/11/client/TAM 001.webp" />
-                            <img src="assets/images/11/client/TAM 003.webp" />
+                            <img src="assets/images/11/client/New folder/37.jpg" />
+                            <img src="assets/images/11/client/New folder/38.jpg" />
+                            <img src="assets/images/11/client/New folder/39.jpg" />
+                            <img src="assets/images/11/client/New folder/4.jpg" />
+                            <img src="assets/images/11/client/New folder/40.jpg" />
+                            <img src="assets/images/11/client/New folder/41.jpg" />
+                            <img src="assets/images/11/client/New folder/5.jpg" />
+                            <img src="assets/images/11/client/New folder/6.jpg" />
+                            <img src="assets/images/11/client/New folder/7.jpg">
+                            <img src="assets/images/11/client/New folder/8.jpg">
                         </div>
                     </div>
                 </li>
@@ -258,7 +259,7 @@
 
 
  <!-- footers 20 -->
- <section class="w3l-footers-20">
+ <section class="w3l-footers-20" id="contact">
    <div class="footers20">
      <div class="container">
        <div class="footers20-content">
@@ -266,13 +267,13 @@
            <div class="column">
              <h4>Address</h4>
              <p class="contact-para3"><strong><h3 class="text-white">LEDGER SOFTWARES</h3></strong>  <br> ANGAMALY, KERALA 683572</p>
-             <a href="contact.html">
+             <a href="">
                <p class="contact-map mt-2"><span class="lnr lnr-map-marker"></span> Find us on map</p>
              </a>
            </div>
            <div class="column">
              <h4>Get in touch</h4>
-             <p>Join the Best GYM in Your Town!</p>
+             <p>Ask Us Anything!</p>
              <a href="tel:7034300879">
                <p class="contact-phone mt-2"><span class="lnr lnr-phone-handset"></span> 7034300879
                </p>
@@ -290,6 +291,13 @@
              <p class="mt-1"><span class="lnr lnr-clock"></span> <strong>Mon - Fri</strong> : 7am to 9pm</p>
              <p class="mt-1"><span class="lnr lnr-clock"></span> <strong>Sat - Sun</strong> : 10 am to 8 pm
              </p> -->
+             <h4 >Subscribe</h4>
+                    <form action="#" class="subscribe d-flex" method="post">
+                        <input type="email" name="email" placeholder="Email Address" required="">
+                        <button class="button-style"><span class="fa fa-paper-plane"
+                                aria-hidden="true"></span></button>
+                    </form>
+                    <p class="mt-4">Subscribe to our mailing list and get updates to your email inbox.</p>
            </div>
          </div>
          <div class="d-grid grid-col-3 grids-content1 bottom-border">
@@ -525,6 +533,7 @@
  <!--//MENU-JS-->
 
  <script src="assets/js/bootstrap.min.js"></script>
+ <script src="assets/js/animation.js"></script>
 
  </body>
 
