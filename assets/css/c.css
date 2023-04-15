@@ -28,7 +28,7 @@
 }
 
 /*-- banner --*/
-.w3l-banner {
+.gl-banner {
     /* background: url(../images/banner1.jpg) no-repeat center; */
     -ms-background-size: cover;
     background-size: cover;
@@ -38,7 +38,7 @@
     align-items: center;
   }
   
-  .w3l-banner:before {
+  .gl-banner:before {
     content: "";
     /* background: rgba(103, 58, 183, 0.8); */
     position: absolute;
@@ -49,7 +49,7 @@
     z-index: -1;
   }
   
-  .w3l-banner h3 {
+  .gl-banner h3 {
     color: #fff;
     font-size: 100px;
     line-height: 100px;
@@ -57,7 +57,7 @@
     text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
   }
   
-  .w3l-banner h3 sup {
+  .gl-banner h3 sup {
     font-size: 17px;
   }
   
@@ -66,12 +66,12 @@
     margin: auto;
   }
   
-  .w3l-banner p {
+  .gl-banner p {
     color: #fff;
   }
   
   @media (max-width: 1080px) {
-    .w3l-banner h3 {
+    .gl-banner h3 {
       font-size: 80px;
       line-height: 80px;
     }
@@ -81,7 +81,7 @@
   
   }
   @media (max-width: 768px) {
-    .w3l-banner h3 {
+    .gl-banner h3 {
       font-size: 65px;
       line-height: 65px;
     }
@@ -92,14 +92,14 @@
   }
   
   @media (max-width: 568px) {
-    .w3l-banner h3 {
+    .gl-banner h3 {
       font-size: 45px;
       line-height: 45px;
     }
   }
   
   @media (max-width: 415px) {
-    .w3l-banner h3 {
+    .gl-banner h3 {
       font-size: 32px;
       line-height: 38px;
     }
@@ -130,7 +130,7 @@
     width: 100%;
   }
 
-  .w3l-footers-20 input[type="email"] {
+  .gl-footers-20 input[type="email"] {
     background: var(--bg-grey);
     border: none;
     padding: 16px 20px;
@@ -140,7 +140,7 @@
     color: var(--heading-color);
     border-radius: 4px 0 0 4px;
   }
-  .w3l-footers-20 button {
+  .gl-footers-20 button {
     border: none;
     outline: none;
     font-size: 16px;
