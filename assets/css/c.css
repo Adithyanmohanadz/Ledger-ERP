@@ -152,3 +152,29 @@
     border-radius: 0 4px 4px 0;
   }
   
+  /*--/think--*/
+.gl-think-2 {
+  background: #fff;
+}
+
+.serve-title-header {
+  max-width: 900px;
+}
+
+.grids-of-5 .blog-info {
+  padding: 24px 24px;
+}
+
+.grids-of-5 .grids5-info h4 a {
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--heading-color);
+  display: block;
+  font-weight: 700;
+  transition: .3s;
+}
+
+.grids-of-5 .grids5-info:hover a {
+  color: var(--primary-color);
+}
+/* //think */
