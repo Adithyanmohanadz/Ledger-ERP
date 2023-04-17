@@ -178,3 +178,45 @@
   color: var(--primary-color);
 }
 /* //think */
+
+.fadeIn1 {
+  animation-duration: 1.5s;
+}
+
+.fadeIn2 {
+  animation-duration: 1.75s;
+}
+
+.fadeIn3 {
+  animation-duration: 2s;
+}
+
+.fadeIn4 {
+  animation-duration: 2.25s;
+}
+
+.fadeIn5 {
+  animation-duration: 2.5s;
+}
+
+.fadeIn1,
+.fadeIn2,
+.fadeIn3,
+.fadeIn4,
+.fadeIn5 {
+  animation-fill-mode: both;
+}
+
+.fadeInBottom {
+  animation-name: h;
+}
+@keyframes h {
+  0% {
+      opacity: 0;
+      transform: translateY(100%);
+  }
+
+  to {
+      opacity: 1;
+  }
+}
